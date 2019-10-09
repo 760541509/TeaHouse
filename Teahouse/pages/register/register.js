@@ -21,7 +21,7 @@ Page({
   //18行到45行 获取验证码按钮步骤
   data: {
     iphone: '',
-    masg: '/images/TeaRegister.png',
+    masg: indexUrl + '/images/TeaRegister.png',
   },
 
   username: function(e) {

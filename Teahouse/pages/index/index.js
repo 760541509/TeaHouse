@@ -7,6 +7,10 @@ const indexUrl = app.globalData.url
 
 Page({
 
+  data:{
+    index_img: indexUrl+ '/images/teahouse.png'
+  },
+
   formSubmit: function(e) {
     let {
       iphone,

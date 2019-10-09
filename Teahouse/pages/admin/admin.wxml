@@ -1,61 +1,31 @@
 <!--pages/admin/admin.wxml-->
-<view>
-  <view>用户管理</view>
-  <view>权限管理</view>
-  <view>角色管理</view>
-  <view>房间设置</view>
-  <view>计费设置</view>
-  <view>网站设置</view>
-  <view>商品分类</view>
+<view class="admin_img">
+  <image src="/image/tea_logo.png" class="admin_img_one"></image>
 </view>
 
+<view class="admin_below">
+  <button class="system_button">
+    <image src="/image/system/system.png" mode="widthFix" class="system_img_one"></image>
+    <text class="system_text_one">系统设置</text>
+  </button>
 
+  <button class="room_button">
+    <image src="/image/StorageRoom/room.png" mode="widthFix" class="room_img_one"></image>
+    <text class="room_text_one">库房管理</text>
+  </button>
 
+  <button class="attendance_button">
+    <image src="/image/AttendanceSettings/attendance_boss.png" mode="widthFix" class="attendance_img_one"></image>
+    <text class="attendance_text_one">考勤设置</text>
+  </button>
 
+  <button class="customer_button">
+    <image src="/image/Customer/Customer.png" mode="widthFix" class="customer_img_one"></image>
+    <text class="customer_text_one">客户设置</text>
+  </button>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<view>
-  
+  <button class="form_button">
+    <image src="/image/ReportForm/ReportForm.png" mode="widthFix" class="form_img_one"></image>
+    <text class="form_text_one">报表情况</text>
+  </button>
 </view>

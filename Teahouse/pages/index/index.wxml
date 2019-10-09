@@ -2,7 +2,7 @@
 <view class="indexCon">
   <!-- <text>欢迎来到小茶楼</text> -->
   <view>
-    <image class="img" src='/images/teahouse.png'></image>
+    <image class="img" src='{{idnex_img}}'></image>
   </view>
 
   <form bindsubmit="formSubmit">

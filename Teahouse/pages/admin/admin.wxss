@@ -1,1 +1,117 @@
 /* pages/admin/admin.wxss */
+
+.admin_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin_img_one {
+  width: 100%;
+}
+
+.system_button {
+  display: flex;
+  width: 150px;
+  position: absolute;
+  left: 30px;
+  margin-top: 20px;
+  height: 120px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.system_img_one {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.system_text_one {
+  display: flex;
+}
+
+.room_button {
+  display: flex;
+  width: 150px;
+  position: absolute;
+  left: 200px;
+  margin-top: 20px;
+  height: 120px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.room_img_one {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.room_text_one {
+  display: flex;
+}
+
+.attendance_button {
+  display: flex;
+  width: 110px;
+  position: absolute;
+  left: 10px;
+  margin-top: 150px;
+  height: 120px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attendance_img_one {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.attendance_text_one {
+  display: flex;
+}
+
+.customer_button {
+  display: flex;
+  width: 110px;
+  position: absolute;
+  left: 133px;
+  margin-top: 150px;
+  height: 120px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customer_img_one {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.customer_text_one {
+  display: flex;
+}
+
+.form_button {
+  display: flex;
+  width: 110px;
+  position: absolute;
+  left: 255px;
+  margin-top: 150px;
+  height: 120px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_img_one {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.form_text_one {
+  display: flex;
+}
+
+.admin_below{
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  height: 365px
+}
