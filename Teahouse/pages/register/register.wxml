@@ -1,0 +1,35 @@
+<!--pages/help/help.wxml-->
+<view class="register">
+  <image mode="aspectFit" src="{{masg}}" class="img_register"></image>
+
+  <form bindsubmit="add_user">
+
+    <view class="register_form">
+      <view>手机号：</view>
+      <input name="iphone" placeholder="手机号" bindinput="username" bindblur="select_username" class="username" disabled="{{username}}"></input>
+    </view>
+
+    <view class="register_form">
+      <input name="verification" placeholder="验证码" class="yanzma" bindblur="code" disabled="{{code}}"></input>
+    </view>
+
+    <view class="register_form">
+      <view>密码：</view>
+      <input name="pwd" placeholder="密码" password bindblur="password"></input>
+    </view>
+
+    <view class="register_smallTeaHouse">
+      <button form-type="submit" disabled="{{register_submit}}">注册小茶楼</button>
+    </view>
+    
+  </form>
+
+  <view>
+    <button class="get_verification_code" bindtap="get_verification_code" disabled="{{get_code}}">获取验证码</button>
+  </view>
+
+  <text class="tips">{{title}}</text>
+
+  <text class="pwd">以字母开头，长度在6-18之间\n只能包含字符、数字和下划线</text>
+
+</view>

@@ -1,0 +1,61 @@
+<!--pages/admin/admin.wxml-->
+<view>
+  <view>用户管理</view>
+  <view>权限管理</view>
+  <view>角色管理</view>
+  <view>房间设置</view>
+  <view>计费设置</view>
+  <view>网站设置</view>
+  <view>商品分类</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<view>
+  
+</view>

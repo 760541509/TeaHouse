@@ -1,0 +1,35 @@
+/* pages/index/index.wxss */
+
+.indexCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  width: 300px;
+  height: 130px;
+  margin: 50rpx 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  margin: 30rpx 0;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  margin: 90rpx 0;
+  margin-left: 50px;
+}
+
+.img_tea {
+  width: 375px;
+}
+
+.text_register {
+  color: rgb(30, 154, 255);
+}

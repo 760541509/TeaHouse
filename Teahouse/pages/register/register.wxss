@@ -1,0 +1,55 @@
+/* pages/help/help.wxss */
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_register {
+  display: flex;
+  top: 0px;
+  width: 250px;
+}
+
+.register_form {
+  display: flex;
+  flex-direction: row;
+  margin: 30rpx 0;
+  margin-top: 30px;
+}
+
+.get_verification_code {
+  display: flex;
+  width: 104px;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 320px;
+  font-size: 15px;
+}
+
+.register_smallTeaHouse {
+  display: flex;
+  margin: 50px;
+}
+
+.pwd {
+  display: flex;
+  position: absolute;
+  top: 405px;
+  font-size: 10px;
+  color: #8d8d8d;
+}
+
+.yanzma {
+  width: 110px;
+}
+
+.tips {
+  display: flex;
+  position: absolute;
+  top: 300px;
+  font-size: 12px;
+  color: red;
+}

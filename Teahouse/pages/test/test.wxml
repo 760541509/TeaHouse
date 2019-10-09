@@ -1,0 +1,3 @@
+<!--pages/test/test.wxml-->
+<text>{{mas}}</text>
+<button bindtap="aaaaa">aaaaaaa{{mas}}</button>
