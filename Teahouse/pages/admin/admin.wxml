@@ -1,6 +1,6 @@
 <!--pages/admin/admin.wxml-->
 <view class="admin_img">
-  <image src="/image/tea_logo.png" class="admin_img_one"></image>
+  <image src="{{admin_img}}" class="admin_img_one"></image>
 </view>
 
 <view class="admin_below">

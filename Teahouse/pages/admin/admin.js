@@ -1,11 +1,12 @@
 // pages/admin/admin.js
+const adminUrl = ''
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    admin_img:adminUrl + '/image/tea_logo.png'
   },
 
   /**
