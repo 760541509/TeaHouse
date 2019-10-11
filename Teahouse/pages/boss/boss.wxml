@@ -1,0 +1,10 @@
+<!--pages/boss/boss.wxml-->
+<view class="bossCon">
+  <image src="{{img001}}" class="img001css"></image>
+  <text class="text_001">老板页面</text>
+  <button>商品物资销售报表</button>
+  <button>每日每月销售报表</button>
+  <button>员工信息报表</button>
+  <button>老用户数量波动报表</button>
+  <button>实际营业数据</button>
+</view>

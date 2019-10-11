@@ -7,8 +7,8 @@ const indexUrl = app.globalData.url
 
 Page({
 
-  data:{
-    index_img: indexUrl+ '/images/teahouse.png'
+  data: {
+    index_img: indexUrl + '/images/teahouse.png'
   },
 
   formSubmit: function(e) {
@@ -24,9 +24,13 @@ Page({
         pwd: pwd
       },
       success: function(res) {
-        if (res.data) {
+        if (res.data.role == 'a3') {
           wx.navigateTo({
-            url: '/pages/register/register',
+            url: '/pages/boss/boss',
+          })
+        } else if (res.data.role == "a2") {
+          wx.navigateTo({
+            url: '/pages/admin/admin',
           })
         } else {
           wx.navigateTo({
