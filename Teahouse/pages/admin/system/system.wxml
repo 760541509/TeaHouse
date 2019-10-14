@@ -1,2 +1,61 @@
-<!--pages/admin/system/system.wxml-->
-<text>pages/admin/system/system.wxml</text>
+<view class="user" wx:for="{{user}}" wx:for-item="user" wx:key="unique">
+  <image src="{{user.img}}" class="user_photo" mode="widthFix"></image>
+  <form bindsubmit="user_table_change">
+    <input class="user_table_name" value="{{user.username}}" disabled="false"></input>
+    <input class="user_table_iphone" value="职位：{{user.staff}}" disabled="false"></input>
+    <text class="user_table_iphone_title">电话：</text>
+    <input class="user_table_iphone_iphone" value="{{user.name}}" disabled="false" name="iphone"></input>
+    <input class="user_table_time" value="创建时间：{{user.times}}" disabled="false"></input>
+    <button class="user_modify_button" form-type="submit">
+      <image src="{{user_modify}}" mode="widthFix" class="user_modify"></image>
+    </button>
+  </form>
+</view>
+<view class="tips">{{tips}}</view>
+
+<view class="system_user_view">
+  <button class="system_user_button" bindtap="add_user_button">
+    <image src="/image/system/add.png" mode="widthFix" class="system_user_img"></image>添加员工</button>
+</view>
+
+<view class="user_modal_view" style="display: {{modal_none}};">
+  <modal bindconfirm="changeModel" bindcancel="modelCancel">
+    <text class="user_modal">名字：</text>
+    <input value="{{modal_username}}" class="user_modal_" disabled="true"></input>
+    <text class="user_modal">电话：</text>
+    <input value="{{modal_name}}" class="user_modal_" bindinput="modal_iphone"></input>
+    <text class="user_modal">职位：</text>
+    <input value="{{modal_staff}}" class="user_modal_" bindinput="modal_staff"></input>
+    <text class="user_modal">所属门店：</text>
+    <input value="{{modal_store}}" class="user_modal_" bindinput="modal_store"></input>
+    <text class="user_modal">可登录平台：</text>
+    <input value="{{modal_platform}}" class="user_modal_" bindinput="modal_platform"></input>
+    <text class="user_modal">权限：</text>
+    <input value="{{modal_role}}" class="user_modal_" bindinput="modal_role"></input>
+    <text class="user_modal">入职时间：</text>
+    <input value="{{modal_times}}" class="user_modal_" disabled="true"></input>
+    <text class="user_modal">是否允许登录：</text>
+    <input value="{{modal_sign_in}}" class="user_modal_" bindinput="modal_sign_in"></input>
+  </modal>
+</view>
+
+<view style="display: {{modal_none_add}};">
+  <modal bindconfirm="changeModel_add" bindcancel="modelCancel_add">
+    <text class="user_modal">名字：</text>
+    <input class="user_modal_add" bindtap="add_user_name"></input>
+    <text class="user_modal">电话：</text>
+    <input class="user_modal_add" bindtap="add_user_iphone"></input>
+    <text class="user_modal">职位：</text>
+    <input class="user_modal_add" bindtap="add_user_staff"></input>
+    <text class="user_modal">所属门店：</text>
+    <input class="user_modal_add" bindtap="add_user_store"></input>
+    <text class="user_modal">可登录平台：</text>
+    <input class="user_modal_add" bindtap="add_user_platform"></input>
+    <text class="user_modal">权限：</text>
+    <input class="user_modal_add" bindtap="add_user_role"></input>
+    <text class="user_modal">入职时间：</text>
+    <input class="user_modal_add" bindtap="add_user_time" placeholder="如若不填,默认为当前日期"></input>
+    <text class="user_modal">是否允许登录：</text>
+    <input class="user_modal_add" bindtap="add_user_sign_in" placeholder="如若不填,默认为允许"></input>
+  </modal>
+</view>

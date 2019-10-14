@@ -2,7 +2,7 @@
 <view class="indexCon">
   <!-- <text>欢迎来到小茶楼</text> -->
   <view>
-    <image class="img" src='{{index_img}}'></image>
+    <image class="img" src='{{idnex_img}}'></image>
   </view>
 
   <form bindsubmit="formSubmit">
@@ -20,10 +20,6 @@
       <button form-type="submit" class="section_login">登录小茶楼</button>
     </view>
   </form>
-
-  <view>
-    <navigator url="/pages/alter/alter" class="text_register">忘记密码/修改密码</navigator>
-  </view>
 
   <view>
     <navigator url="/pages/register/register" class="text_register">立即注册</navigator>

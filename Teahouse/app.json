@@ -1,11 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/register/register",
-    "pages/alter/alter",
     "pages/admin/admin",
-    "pages/admin/system/system",
-    "pages/boss/boss"
+    "pages/admin/system/system"
   ],
   "window": {
     "navigationBarBackgroundColor": "#000000",
