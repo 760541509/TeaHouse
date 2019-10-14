@@ -1,0 +1,8 @@
+<!--pages/commodity/commodity.wxml-->
+<text>pages/commodity/commodity.wxml</text>
+<view wx:for="{{commodity}}" wx:key="unique">
+  <view class="com_i">
+  {{item.name}}
+  </view>
+
+</view>

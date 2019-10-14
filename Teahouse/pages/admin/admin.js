@@ -1,81 +1,67 @@
 // pages/admin/admin.js
 const adminUrl = ''
-var app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    admin_img: adminUrl + '/image/tea_logo.png',
+    admin_img:adminUrl + '/image/tea_logo.png'
   },
 
-  system: function() {
-    wx.showActionSheet({
-      itemList: ['用户管理', '权限管理', '角色管理', '房间设置', '计费设置', '商品分类', ],
-      success: function(res) {
-        console.log(res.tapIndex)
-        if (res.tapIndex == 0) {
-          wx.navigateTo({
-            url: '/pages/admin/system/system',
-          })
-        } else if (res.tapIndex == 1) {
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
 
-        } else if (res.tapIndex == 2) {
-
-        } else if (res.tapIndex == 3) {
-
-        } else if (res.tapIndex == 4) {
-
-        } else if (res.tapIndex == 5) {
-
-        }
-      }
-    })
   },
 
-  room: function() {
-    wx.showActionSheet({
-      itemList: ['库房', '出库'],
-      success: function(res) {
-        console.log(res.tapIndex)
-      },
-    })
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+
   },
 
-  attendance: function() {
-    wx.showActionSheet({
-      itemList: ['考勤信息'],
-      success: function(res) {
-        console.log(res.tapIndex)
-      },
-    })
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+
   },
 
-  customer: function() {
-    wx.showActionSheet({
-      itemList: ['客户管理', '客户评价', '客户反馈'],
-      success: function(res) {
-        console.log(res.tapIndex)
-      },
-    })
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+
   },
 
-  form: function() {
-    wx.showActionSheet({
-      itemList: ['运营报表'],
-      success: function(res) {
-        console.log(res.tapIndex)
-      },
-    })
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+
   },
 
-  web: function() {
-    wx.showActionSheet({
-      itemList: ['网站设置'],
-      success: function(res) {
-        console.log(res.tapIndex)
-      },
-    })
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
   },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
+  }
 })

@@ -1,0 +1,5 @@
+/* pages/commodity/commodity.wxss */
+.com_i{
+  background-color: rosybrown;
+  margin-top: 10px;
+}

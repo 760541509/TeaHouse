@@ -4,33 +4,28 @@
 </view>
 
 <view class="admin_below">
-  <button class="system_button" bindtap="system">
+  <button class="system_button">
     <image src="/image/system/system.png" mode="widthFix" class="system_img_one"></image>
     <text class="system_text_one">系统设置</text>
   </button>
 
-  <button class="room_button" bindtap="room">
+  <button class="room_button">
     <image src="/image/StorageRoom/room.png" mode="widthFix" class="room_img_one"></image>
     <text class="room_text_one">库房管理</text>
   </button>
 
-  <button class="attendance_button" bindtap="attendance">
+  <button class="attendance_button">
     <image src="/image/AttendanceSettings/attendance_boss.png" mode="widthFix" class="attendance_img_one"></image>
     <text class="attendance_text_one">考勤设置</text>
   </button>
 
-  <button class="customer_button" bindtap="customer">
+  <button class="customer_button">
     <image src="/image/Customer/Customer.png" mode="widthFix" class="customer_img_one"></image>
     <text class="customer_text_one">客户设置</text>
   </button>
 
-  <button class="form_button" bindtap="form">
+  <button class="form_button">
     <image src="/image/ReportForm/ReportForm.png" mode="widthFix" class="form_img_one"></image>
     <text class="form_text_one">报表情况</text>
-  </button>
-
-  <button class="web_button" bindtap="web">
-    <image src="/image/web/web.png" mode="widthFix" class="web_img_one"></image>
-    <text class="web_text_one">网站情况</text>
   </button>
 </view>

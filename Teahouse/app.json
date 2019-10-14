@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/admin/admin",
-    "pages/admin/system/system"
+    "pages/commodity/commodity"
   ],
   "window": {
     "navigationBarBackgroundColor": "#000000",

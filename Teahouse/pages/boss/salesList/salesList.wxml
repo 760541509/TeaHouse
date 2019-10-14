@@ -1,0 +1,5 @@
+<!--pages/boss/salesList/salesList.wxml-->
+<text>pages/boss/salesList/salesList.wxml</text>
+<view wx:for="{{sales}}" wx:key="unique">
+  {{item.id}}{{item.password}}
+</view>
